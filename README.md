@@ -57,3 +57,6 @@ Request Body
 "postCode":"W7 8AG"
 
 }
+
+## To run all tests
+mvn test
