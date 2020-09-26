@@ -29,7 +29,7 @@ import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(SpringExtension.class)
-@WebMvcTest(value = UserController.class, secure = false)
+@WebMvcTest(value = UserController.class)
 class UserControllerTest {
 
     @MockBean
